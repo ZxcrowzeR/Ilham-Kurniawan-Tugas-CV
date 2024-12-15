@@ -1,0 +1,135 @@
+body {
+    margin: 2;
+    padding: 2;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(168, 7, 7);
+    position: sticky;
+    top: 0;
+}
+nav{
+    display:inline-block;
+   
+}
+nav ul {
+    display: inline;
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul li .logo{
+    font-size: 19px;
+    margin-right: 120px;
+}
+nav ul li .admin{
+    font-size: 19px;
+    margin-left: 800px;
+    color: yellow;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+nav ul li .menu-item:hover{
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 25px;
+}
+main #ilham{
+    background-color: rgb(15, 30, 245);
+    text-align: center;
+   
+}
+.ilham-img{
+    padding-top: 50px;
+}
+.ilham-img img{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  
+}
+
+.ilham-text{
+    padding-bottom: 35px;  
+    color: #fff; 
+}
+.ilham-text h2{
+    margin-bottom: 0;   
+    color: rgb(255, 0, 119); 
+}
+.about-me{
+    background-color: white;
+    padding: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 20px;
+}
+main #project{
+    text-align: center;
+}
+.card{
+ max-width: 350px;
+ display: inline-block;
+   margin: 5px;
+   border-radius: 10px; 
+   background-color: aliceblue;
+
+}
+.card-body{
+    padding: 15px;
+   
+}
+#client{
+    text-align: center;
+    
+
+}
+footer {
+    text-align: center;
+    background-color: #d12103;
+    padding: 15px;
+    color: #fff;
+}
+
+
+
+@media  (max-width:767.98px)
+{
+    nav ul li {
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+nav ul li .logo{
+ display: none;
+}
+.about-me{
+    background-color: rgb(250, 250, 250);
+    padding: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+nav ul li .menu-item:hover{
+    color: yellow;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+    
+}
+
